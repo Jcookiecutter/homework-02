@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: wheat;
+}
+
+header {
+    top: 0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #974a0a;
+    color: white;
+    font-size: 38px;
+    font-style: italic;
+}
+
+#selfie {
+    float: left;
+    width: 500px;
+}
+
+img {
+    float: left;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#aboutMe {
+    font-size: 38px;
+}
+
+footer {
+    clear: both;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #974a0a;
+    color: white;
+    font-size: 38px;
+    font-style: italic;    
+}
+
+@media screen and (max-width: 768px) {
+    
+    #info-widget,
+    #trivia-game,
+    #rpg-game,
+    #word-guess,
+    #rps {
+        margin: 0;
+        width: 100%;
+    }
+}
